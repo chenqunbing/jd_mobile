@@ -1,0 +1,219 @@
+.container{
+	width: 100%;
+	min-height: 980px;
+	background-color: #EEEEEE;
+}
+
+/*导航栏*/
+.jd_banner{
+	height: 40px;
+	width: 100%;
+	padding-left: 70px;
+	padding-right: 60px;
+	position: fixed;
+	z-index: 10;
+}
+.jd_banner input{
+	width: 100%;
+	height: 25px;
+	border-radius: 10px;
+	margin-top: 7px;
+	padding-left: 28px;
+}
+.jd_banner .icon-jd{
+	width:60px;
+	height: 20px;
+	background: url(../img/sprites.png) no-repeat;
+	background-position:0 -109px;
+	background-size: 200px 200px;
+	position: absolute;
+    top: 9px;
+    left: 6px;
+}
+.jd_banner .icon-search{
+	display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/sprites.png) no-repeat;
+    background-position: -60px -110px;
+    position: absolute;
+    top: 12px;
+    left: 74px;
+    background-size: 200px 200px;
+}
+.jd_banner a{
+	font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 7px;
+    right: 12px;
+}
+
+/*轮播图*/
+.lunbo {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.lunbo .pic{
+	width: 800%;
+}
+.lunbo .pic li{
+	width: 12.5%;
+	height: auto;
+	float: left;
+}
+.lunbo .pic li a{
+	display: block;
+	width: 100%;
+}
+.lunbo .pic li img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.lunbo .circle{
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+	bottom: 3px;
+}
+.lunbo .circle li{
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	border: 1px solid #000000;
+	float: left;
+	margin: 2px;
+}
+.lunbo .circle li.on{
+	background: #000000;
+}
+/*京东导航栏*/
+.jd_nav{
+	width: 100%;
+	background: #FFFFFF;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 10px 0;
+}
+.jd_nav ul{
+	width: 100%;
+}
+.jd_nav ul li{
+	width: 25%;
+	float: left;
+}
+.jd_nav ul li a{
+	display: block;
+	width: 100%;
+}
+.jd_nav ul li img{
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+}
+.jd_nav ul li p{
+	color: gray;
+	text-align: center;
+}
+/*主要商品信息*/
+.jd_main{
+	width: 100%;
+	padding: 0 5px ;
+	padding-top: 10px;
+}
+.main_content{
+	width: 100%;
+	background: #FFFFFF;
+	min-height: 150px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+.top_content{
+	height: 30px;
+}
+.top_content span{
+	display: block;
+	width: 20px;
+	height:25px;
+	background-image: url(../img/seckill-icon.png);
+	background-repeat: no-repeat;
+	background-size:20px 25px;
+	float: left;
+}
+.top_content p{
+	float: left;
+	color: red;
+	padding-left: 5px;
+    padding-top: 3px;
+}
+.top_content ul li{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 15px;
+	background: #000000;
+	color: #FFFFFF;
+	margin: 2px;
+	text-align: center;
+	line-height: 15px;
+	margin-top: 5px;
+    margin-left: 5px;
+}
+.top_content ul li:nth-of-type(3),
+.top_content ul li:nth-of-type(6){
+	background: none;
+	color: #000000;
+}
+.top_content a{
+	float: right;
+	color: gray;
+	padding-top: 3px;
+}
+.bottom_content {
+	width: 100%;
+}
+.bottom_content ul{
+	width: 100%;
+}
+.bottom_content ul li{
+	width: 33.3%;
+	float: left;
+}
+.bottom_content ul li a{
+	display: block;
+	width: 100%;
+}
+.bottom_content ul li a img{
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+}
+.bottom_content ul li p:nth-of-type(1){
+	color: red;
+	text-align: center;
+	font-size: 11px;
+	padding-top: 10px;
+}
+.bottom_content ul li p:nth-of-type(2){
+	color: #000000;
+	text-align: center;
+	font-size: 13px;
+	text-decoration: line-through;
+	padding-top: 4px;
+}
+.top_content .market{
+	border-left: 5px solid red;
+}
+.bottom_content .picture li{
+	display: block;
+	width: 50%;
+}
+.bottom_content .picture li a{
+	display: block;
+	width: 100%;
+}
+.bottom_content .picture li img{
+	width: 100%;
+	display: block;
+}
